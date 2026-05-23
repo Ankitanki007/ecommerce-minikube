@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: order-service
-        image: ankitanki007/order-service:1.0
+        image: ankitdevops02/order-service:1.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3003

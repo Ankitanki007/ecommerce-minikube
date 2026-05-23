@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: ankitanki007/user-service:1.0
+        image: ankitdevops02/user-service:1.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3001

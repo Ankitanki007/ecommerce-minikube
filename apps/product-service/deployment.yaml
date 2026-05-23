@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: product-service
-        image: ankitanki007/product-service:1.0
+        image: ankitdevops02/product-service:1.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3002
