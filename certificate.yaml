@@ -1,0 +1,13 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: tls-app-cert
+  namespace: default
+spec:
+  secretName: tls-app-secret
+  issuerRef:
+    name: local-ca-issuer
+    kind: ClusterIssuer
+  dnsNames:
+  - tls-app.local
+  - www.tls-app.local
